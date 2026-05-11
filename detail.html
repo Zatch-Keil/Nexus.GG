@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Détail - Nexus.GG</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <span class="logo">NEXUS.GG</span>
+    <a href="index.html">Accueil</a>
+    <a href="catalogue.html">Catalogue</a>
+    <input type="text" class="search" placeholder="Rechercher un jeu..." />
+  </nav>
+
+  <div class="detail-header">
+    <h1 id="game-title">Chargement...</h1>
+    <p id="game-studio"></p>
+  </div>
+
+  <div class="detail-layout">
+
+    <div class="detail-main">
+      <div class="trailer-box">
+        <span>▶ Trailer officiel</span>
+      </div>
+
+      <h2>Synopsis</h2>
+      <p id="game-synopsis"></p>
+
+      <h2>Screenshots</h2>
+      <div class="screenshots-grid" id="game-screenshots"></div>
+    </div>
+
+    <div class="detail-sidebar">
+      <div class="info-card">
+        <p class="score" id="game-rating">—</p>
+        <p>Note moyenne</p>
+
+        <hr>
+
+        <p><strong>Sortie :</strong> <span id="game-date">—</span></p>
+        <p><strong>Genre :</strong> <span id="game-genre">—</span></p>
+        <p><strong>Plateformes :</strong> <span id="game-platforms">—</span></p>
+      </div>
+      <button class="btn-primary">▶ Voir le trailer</button>
+      <button class="btn-secondary">+ Wishlist</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catalogue - Nexus.GG</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <span class="logo">NEXUS.GG</span>
+    <a href="index.html">Accueil</a>
+    <a href="catalogue.html">Catalogue</a>
+    <input type="text" class="search" placeholder="Rechercher un jeu..." />
+  </nav>
+
+  <div class="catalogue-layout">
+
+    <div class="sidebar">
+      <h3>Plateforme</h3>
+      <label><input type="checkbox" /> PC</label>
+      <label><input type="checkbox" /> PS5</label>
+      <label><input type="checkbox" /> Xbox</label>
+      <label><input type="checkbox" /> Switch</label>
+
+      <h3>Note</h3>
+      <label><input type="checkbox" /> 9 - 10 ★</label>
+      <label><input type="checkbox" /> 7 - 9 ★</label>
+      <label><input type="checkbox" /> 5 - 7 ★</label>
+    </div>
+
+    <div class="catalogue-main">
+      <h1>Catalogue</h1>
+      <div class="cards-grid" id="all-games"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
